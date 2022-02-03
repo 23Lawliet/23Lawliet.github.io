@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" href="assets/images/Home/icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/grid.css">
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+
+    <div class="web gallery">
+        <div class="banner_top">
+            <div class="menu_scroll">
+                <div class="menu grid wide">
+                    <div class="row">
+                        <!-- toast menu on moblie -->
+                        <input type="checkbox" hidden class="menu_input" name="" id="menu_mobile_input">
+                        <label for="menu_mobile_input" class="menu_overlay"></label>
+                        <div class="menu_mobile_items">
+                            <a href="index.html" class="mobile_item first_row">Home</a>
+                            <a href="gallery.html" class="mobile_item active">Gallery</a>
+                            <a href="about_me.html" class="mobile_item">About me</a>
+                            <a href="myCV.html" class="mobile_item">My CV</a>
+                        </div>
+                        <label for="menu_mobile_input" class="col l-0 m-0 c-9 menu_icon_bar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+
+                        <!-- menu on pc/tablet -->
+                        <div class="logo col l-4 m-2 c-3">
+                            <a href="index.html"><img class="logo_top" src="assets/images/Home/logo.png" alt=""></a>
+                        </div>
+                        <div class="menu_items col l-8 m-10 hide_on_mobile">
+                            <li class="item"><a href="myCV.html">My CV</a></li>
+                            <li class="item"><a href="about_me.html">About me</a></li>
+                            <li class="item"><a class="active" href="gallery.html">Gallery</a></li>
+                            <li class="item"><a href="index.html">Home</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content grid wide">
+                <div class="row">
+                    <div class="title_base col l-12 m-12 c-12">
+                        <div class="title">ALL MY CREATIVE WORK</div>
+                    </div>
+                    <div class="col l-8 m-8 c-8 l-o-2 m-o-2 c-o-2">
+                        <div class="description">I has been do a lot design about Graphic design, Motion graphic, Media post, Typography, Illustration,... You can see them here.
+                            If you like it, don’t forget to follow me!</div>
+                    </div>
+                    
+                    <div class="col l-2 m-2"></div>
+
+                    <div class="shape col l-3 m-3 hide_on_mobile">
+                        <img src="assets/images/Gallery/design-09.png" alt="" class="shape1">
+                    </div>
+                    <div class="shape col l-4 m-6 l-o-1 hide_on_mobile">
+                        <img src="assets/images/Gallery/design-11.png" alt="" class="shape2">
+                    </div>
+                    <div class="shape col l-3 m-3 l-o-1 hide_on_mobile">
+                        <img src="assets/images/Gallery/design-10.png" alt="" class="shape3">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="filter grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="food-menu">
+                        <button class="active" type="all">All</button>
+                        <button type-food="graphic_design" class>Graphic design</button>
+                        <button type-food="media_post" class>Media post</button>
+                        <button type-food="motion_graphic" class>Motion graphic</button>
+                        <button type-food="illustrator" class>Illustrator</button>
+                        <button type-food="others" class>Others</button>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="products grid wide">
+            <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <div class="food-item" type-food="illustrator">
+                            <a href="gallery_details_1.html">
+                                <img src="assets/images/Gallery/product1.jpg" alt="" class="cover">
+                                <p class="title">Illustrator | Moblie icons</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="food-item" type-food="others">
+                            <a href="gallery_details_2.html">
+                                <img src="assets/images/Gallery/product2.jpg" alt="" class="cover">
+                                <p class="title">Typograpgy | Be yourself</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="food-item" type-food="others">
+                            <a href="gallery_details_3.html">
+                                <img src="assets/images/Gallery/product3.jpg" alt="" class="cover">
+                                <p class="title">UI/UX | Yummie-Ordering food app</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="food-item" type-food="others">
+                            <a href="gallery_details_4.html">
+                                <img src="assets/images/Gallery/product4.jpg" alt="" class="cover">
+                                <p class="title">Logo | BnA PTIT logo</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="food-item" type-food="motion_graphic">
+                            <a href="gallery_details_5.html">
+                                <img src="assets/images/Gallery/product5.jpg" alt="" class="cover">
+                                <p class="title">Motion | 7 Facts about country around the world</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="food-item" type-food="others">
+                            <a href="gallery_details_6.html">
+                                <img src="assets/images/Gallery/product6.jpg" alt="" class="cover">
+                                <p class="title">Edit | Train to Busan trailer (fanmade)</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="food-item" type-food="graphic_design">
+                            <a href="gallery_details_7.html">
+                                <img src="assets/images/Gallery/product7.jpg" alt="" class="cover">
+                                <p class="title">Graphic design | Marcus Rasford - The Red devil</p>
+                            </a>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        
+        <div class="footer grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="line"></div>
+                </div>
+                <div class="col l-6 m-6 c-6">
+                    <div class="right">2021 © Duy Quang. All Right Reserved.</div>
+                </div>
+                <div class="col l-6 m-6 c-6">
+                    <div class="social_media">
+                        <a href="https://www.instagram.com/23lawliettt/" class="icon">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="https://www.behance.net/23lawliet" class="icon">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                        <a href="https://www.facebook.com/23Lawliet/" class="icon">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+
+    </div>
+
+
+    <script src="assets/web.js"></script>
+</body>
+</html>
