@@ -303,7 +303,7 @@ a{
     height: 25em;
     background-color: white;
     box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
-    border-radius: 1.5625em;
+    border-radius: 1em;
     margin-top: 6.25em;
     padding: 0em;
     display: flex;
@@ -349,7 +349,7 @@ a{
     min-height: 80%;
     background-color: white;
     box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
-    border-radius: 1.5625em;
+    border-radius: 1em;
     margin-top: 6.25em;
 } 
 
@@ -370,7 +370,8 @@ a{
 }
 
 .what_software .software .bg{
-    width: 16%;
+    width: 7em;
+    height: 7em;
     /* height: 7em; */
     border-radius: 0.9375em;
     /* background-color: white; */
@@ -405,13 +406,13 @@ a{
     max-height: 60em;
     background-color: white;
     box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
-    border-radius: 1.5625em;
+    border-radius: 1em;
     margin-top: 1.3em;
 }
 
 .what_my_abilities .box .cover{
     width: 100%;
-    border-radius: 1.5625em;
+    border-radius: 1em 1em 0em 0em;
 }
 
 .what_my_abilities .box .title{
@@ -828,7 +829,7 @@ a{
 
 .about_me .favorite_songs .container .content .playlist-head{
     width: 100%;
-    padding-top: 1em;
+    padding-top: 0em;
 }
 
 .about_me .favorite_songs .container .content .playlist-head h4{
@@ -1418,16 +1419,24 @@ a{
         padding-top: 0.75em;
     }
     
-    .what_software .software img{
-        width: 3.5em;
-        padding: 0.3125em 1em;
+    .what_software .software .bg{
+        width: 5em;
+        height: 5em;
+    }
+    
+    .what_software .software .bg img{
+        width: 5em;
         transition: none;
-    } 
+    }
+    
+    .what_software .software .bg:hover img{
+        width: 100%;
+    }
     
     .what_my_abilities .title{
         font-size: 2.5em;
         text-align: center;
-        padding-top: 2.5em;
+        padding-top: 3em;
         text-transform: uppercase;
     }
     
@@ -2039,21 +2048,21 @@ a{
     
     .what_software .title{
         font-size: 1.875em;
-        padding-top: 1.25em;
+        padding-top: 0.5em;
     } 
     
     .what_software .software{
         padding-top: 0.5em;
     }
     
+    .what_software .software .bg{
+        width: 2.5em;
+        height: 2.5em;
+    }
+    
     .what_software .software .bg img{
-        width: 3.5em;
-        padding: 0.3125em 0.625em;
+        width: 2.5em;
         transition: none;
-    } 
-
-    .what_software .software .bg:hover img{
-        width: 3.5em;
     }
 
     .what_my_abilities{
@@ -2071,7 +2080,7 @@ a{
 
     .what_my_abilities .box .title{
         font-size: 1.25em;
-        padding: 0.625em 0.625em 0.625em 0.625em;
+        padding: 0.5em 0.625em 0.3em 0.5em;
         float: left;
     }
     
@@ -2079,7 +2088,7 @@ a{
         font-size: 0.8125em;
         padding-top: 0.375em;
         float: left;
-        padding: 0em 0.625em 0.625em 0.625em;
+        padding: 0em 1em 2em 1em;
     }
     
     .comment_area{
@@ -2181,7 +2190,7 @@ a{
 
     .about_me .timeline .title{
         font-size: 1.875em;
-        padding-top: 2.5em;
+        /* padding-top: 2em; */
     }
     
     .about_me .timeline .bar{
@@ -2277,13 +2286,13 @@ a{
     }
 
     .about_me .favorite_songs .container{
-        height: 20.625em;
+        height: 18em;
         border-radius: 1.25em;
         margin-top: 3.125em;
     }
 
     .about_me .favorite_songs .container .content{
-        padding: 0.625em 1.875em;
+        padding: 0.5em 1.5em;
     }
 
     .about_me .favorite_songs .container .content .my-playlist{
@@ -2293,7 +2302,7 @@ a{
 
     .about_me .favorite_songs .container .content .playlist-head h4{
         font-size: 2.1875em;
-        margin-bottom: 1.25em;
+        margin-bottom: 0.4em;
     }
 
     .about_me .favorite_songs .container .content .playlist{
@@ -2335,8 +2344,7 @@ a{
     ======================================*/
     .about_me .favorite_songs .container .content .play-song{
         padding: 0em 0em 0em 0em;
-        margin-top: 0em;
-    
+        margin-top: -1em;
     }
 
     .about_me .favorite_songs .container .content .play-control{
