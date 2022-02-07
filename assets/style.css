@@ -48,7 +48,7 @@
 
 .test{
     background-color: cadetblue;
-    height: 500px;
+    height: 31.25em;
 }
 
 .popup_layer{
@@ -59,8 +59,8 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0em;
+    left: 0em;
     z-index: 10;
     display: none;
 }
@@ -69,7 +69,7 @@
     position: fixed;
     top: 10%;
     right: 5%;
-    font-size: 30px;
+    font-size: 1.875em;
     color: white;
     opacity: 0.6;
     transition: 0.3s;
@@ -128,13 +128,13 @@ a{
 /* Home */
 .banner_top{
     width: 100%;
-    height: 770px;
+    height: 46em;
     background-color: #FFF9F5;
     position: relative;
 }
 
 .banner_top .menu_scroll{
-    height: 110px;
+    height: 6em;
     background-color: transparent;
     position: fixed;
     width: 100%;
@@ -145,14 +145,14 @@ a{
 .banner_top .menu_scrolled{
     height: 12%;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.100);
-    border-bottom: 1px solid #32200025;
+    box-shadow: 0em 0em 0.625em rgba(0, 0, 0, 0.100);
+    border-bottom: 0.0625em solid #32200025;
     position: fixed;
-    padding-bottom: 5px;
+    padding-bottom: 0.3125em;
 }
 
 .banner_top .menu .logo .logo_top{
-    width: 40px;
+    width: 2.5em;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -160,38 +160,38 @@ a{
 }
 
 .banner_top .menu .logo .logo_scrolled{
-    width: 30px;
+    width: 1.875em;
 }
 
 .banner_top .menu .menu_icon_bar i{
-    width: 90px;
+    width: 5.625em;
     color: #F17B78;
 }
 
 .banner_top .menu .menu_items{
     font-family: BEBAS NEUE BOOK;
     color: #322000;
-    font-size: 30px;
+    font-size: 2.3em;
 }
 
 .banner_top .menu .menu_items .item{
     list-style: none;
-    padding: 0px 0px 0px 60px;
+    padding: 0em 0em 0em 1.6em;
     float: right;
-    line-height: 110px;
+    line-height: 2.5em;
     transition: 0.3s;
 }
 
 .banner_top .menu .menu_items .item_scrolled{
-    font-size: 30px;
-    line-height: 80px;
-    padding: 0px 0px 0px 50px;
+    font-size: 0.85em;
+    line-height: 2.7em;
+    padding: 0em 0em 0em 1.3em;
 }
 
 .banner_top .menu .menu_items .active{
+    font-size: 1.2em;
     font-family: BEBAS NEUE REGULAR;
     color: #F17B78;
-    font-size: 38px;
 }
 
 .banner_top .menu .menu_overlay{
@@ -206,31 +206,31 @@ a{
 
 .banner_top .menu .menu_mobile_items{
     position: fixed;
-    top: 0px;
+    top: 0em;
     right: 0;
     bottom: 0;
-    height: 390px;
+    height: 25em;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.100);
+    box-shadow: 0em 0em 0.625em rgba(0, 0, 0, 0.100);
     text-align: center;
-    transform: translateY(-110%);
+    transform: translateY(-200%);
     transition: 0.3s;
 }
 
 .banner_top .menu .menu_mobile_items .mobile_item{
-    padding: 20px 0px;
+    padding: 0.55em 0em;
     display: block;
     font-family: BEBAS NEUE BOOK;
     color: #322000;
-    font-size: 35px;
+    font-size: 2.1875em;
 }
 
 .banner_top .menu .menu_mobile_items .mobile_item_close{
-    padding: 30px 30px 20px 30px;
+    padding: 1.875em 1.875em 1.25em 1.875em;
     display: block;
     color: #322000;
-    font-size: 30px;
+    font-size: 1.875em;
     text-align: right;
 }
 
@@ -241,7 +241,7 @@ a{
 }
 
 .banner_top .menu .menu_mobile_items .first_row{
-    margin-top: 90px;
+    margin-top: 2.65em;
 }
 
 .banner_top .menu .menu_input:checked ~ .menu_overlay{
@@ -253,58 +253,59 @@ a{
 }
 
 .banner_top .content{
-    padding-top: 110px;
+    padding-top: 7em;
     color: #322000;
 }
 
 .banner_top .introduce .name{
     font-family: BEBAS NEUE BOLD;
-    font-size: 160px;
-    margin-top: 30px;
+    font-size: 11em;
+    margin-top: 0.2em;
 }
 
 .banner_top .introduce .job{
     font-family: BEBAS NEUE REGULAR;
-    font-size: 60px;
-    margin-top: -10px;
+    font-size: 3.5em;
+    margin-top: -0.3em;
 }
 
 .banner_top .introduce .description{
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 1.25em;
+    margin-top: 0.8em;
 }
 
 .banner_top .introduce a{
     color: #F17B78;
-    font-weight: 400;
-    line-height: 40px;
+    font-weight: 600;
+    line-height: 2.5em;
 }
 
 .banner_top .introduce .button{
+    /* FONT-VARIANT-EAST-ASIAN: JIS83; */
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    margin-top: 80px;
+    font-size: 1.25em;
+    margin-top: 4em;
     text-transform: uppercase;
-    width: 200px;
-    height: 50px;
+    width: 9.5em;
+    height: 2.9em;
     text-align: center;
-    border: 5px solid #F17B78;
-    border-radius: 50px;
+    border: 0.2em solid #F17B78;
+    border-radius: 3.125em;
 }
 
 .banner_top .content .avt img{
-    width: 95%;
+    width: 90%;
     float: right;
 }
 
 .who_am_i .container{
-    height: 400px;
+    height: 25em;
     background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.100);
-    border-radius: 25px;
-    margin-top: 100px;
-    padding: 0px;
+    box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
+    border-radius: 1.5625em;
+    margin-top: 6.25em;
+    padding: 0em;
     display: flex;
 }
 
@@ -312,7 +313,7 @@ a{
     width: 90%;
     height: 100%;
     background-color: #FFDFCA;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     float: left;
     position: relative;
 }
@@ -320,92 +321,105 @@ a{
 .who_am_i .container .image_base img{
     width: 70%;
     position: absolute;
-    letter-spacing: 0px;
-    bottom: 0px;
+    letter-spacing: 0em;
+    bottom: 0em;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .who_am_i .container .content{
-    padding: 60px 60px 60px 60px;
+    padding: 3.75em 3.75em 3.75em 3.75em;
 }
 
 .who_am_i .container .content .question1{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 55px;
+    font-size: 3.5em;
 }
 
 .who_am_i .container .content .description{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 1.25em;
+    margin-top: 1.25em;
 }
 
 .what_software .container{
     min-height: 80%;
     background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.100);
-    border-radius: 25px;
-    margin-top: 100px;
+    box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
+    border-radius: 1.5625em;
+    margin-top: 6.25em;
 } 
 
 .what_software .title{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 55px;
+    font-size: 3.5em;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 0.5em;
 } 
 
 .what_software .software{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.25em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
 }
 
-.what_software .software img{
-    width: 120px;
-    padding: 5px 35px;
-    box-sizing: content-box;
-    transition: 0.3s;
-} 
+.what_software .software .bg{
+    width: 16%;
+    /* height: 7em; */
+    border-radius: 0.9375em;
+    /* background-color: white; */
+    /* box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.what_software .software img:hover{
-    width: 130px;
-} 
+.what_software .software .bg img{
+    width: 100%;
+    transition: 0.3s;
+}
+
+.what_software .software .bg:hover img{
+    width: 110%;
+}
+
 
 .what_my_abilities .title{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 55px;
+    font-size: 3.5em;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 2.5em;
     text-transform: uppercase;
 }
 
 .what_my_abilities .box{
     width: 100%;
-    min-height: 550px;
-    max-height: 1000px;
+    min-height: 35em;
+    max-height: 60em;
     background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.100);
-    border-radius: 25px;
-    margin-top: 30px;
+    box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
+    border-radius: 1.5625em;
+    margin-top: 1.3em;
 }
 
 .what_my_abilities .box .cover{
     width: 100%;
-    border-radius: 25px;
+    border-radius: 1.5625em;
 }
 
 .what_my_abilities .box .title{
     font-family: 'Quicksand', sans-serif;
     color: #322000;
     font-weight: 700;
-    font-size: 35px;
-    padding: 20px 20px 10px 30px;
+    font-size: 2.2em;
+    padding: 0.5em 0.5em 0.1em 0.8em;
     float: left;
 }
 
@@ -413,44 +427,44 @@ a{
     font-family: 'Quicksand', sans-serif;
     color: #322000;
     font-weight: 400;
-    font-size: 20px;
-    padding-top: 6px;
+    font-size: 1.25em;
+    /* padding-top: 0.375em; */
     float: left;
-    padding: 0px 30px 30px 30px;
+    padding: 0em 1.5em 1.8em 1.5em;
 }
 
 .comment_area{
     text-align: center;
-    padding: 100px 0px 0px 0px;
+    padding: 3.25em 0em 0em 0em;
 }
 
 .footer{
-    padding-bottom: 60px;
+    padding-bottom: 3.75em;
 }
 
 .footer .line{
-    height: 5px;
+    height: 0.3125em;
     background-color: #322000;
-    border-radius: 25px;
-    margin-top: 200px;
+    border-radius: 1.5625em;
+    margin-top: 12.5em;
 }
 
 .footer .right{
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 1em;
+    margin-top: 0.3125em;
 }
 
 .footer .social_media .icon{
-    width: 40px;
-    height: 40px;
+    width: 2.5em;
+    height: 2.5em;
     float: right;
-    margin-left: 10px;;
-    margin-top: 5px;
-    border-radius: 25px;
+    margin-left: 0.625em;;
+    margin-top: 0.3125em;
+    border-radius: 1.5625em;
     background-color: white;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.150);
+    box-shadow: 0em 0em 1.25em rgba(0, 0, 0, 0.150);
     box-sizing: content-box;
     display: flex;
     justify-content: center;
@@ -464,27 +478,27 @@ a{
 }
 
 .footer .social_media .icon i{
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 
 /* Gallery */
 .gallery .content .title{
     font-family: BEBAS NEUE BOLD;
-    font-size: 160px;
-    margin-top: 20px;
+    font-size: 10em;
+    margin-top: 0.05em;
     text-align: center;
 }
 
 .gallery .content .description{
     font-family: 'Quicksand', sans-serif;
-    font-size: 23px;
-    margin-top: 15px;
+    font-size: 1.4em;
+    margin-top: 0.5em;
     text-align: center;
 }
 
 .gallery .content .shape{
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .gallery .content .shape1{
@@ -494,13 +508,13 @@ a{
 .gallery .content .shape2{
     width: 115%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2.75em;
 }
 
 .gallery .content .shape3{
     width: 40%;
     float: right;
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 
 /* .filter{
@@ -508,8 +522,8 @@ a{
 }
 
 .filter .food-menu{
-    margin-top: 80px;
-    margin-bottom: 10px;
+    margin-top: 5em;
+    margin-bottom: 0.625em;
 }
 
 .filter .food-menu .active{
@@ -520,11 +534,11 @@ a{
 .filter .food-menu button{
     color: #F17B78;
 	border: 2px solid #F17B78;
-	padding: 5px 20px;
-	border-radius: 50px;
-    margin-right: 10px;
+	padding: 0.3125em 1.25em;
+	border-radius: 3.125em;
+    margin-right: 0.625em;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
 	font-weight: 400;
 	transition: 0.3s;
 	cursor: pointer;
@@ -532,14 +546,14 @@ a{
 }
 
 .filter .line{
-    height: 5px;
+    height: 0.3125em;
     background-color: #F17B78;
-    border-radius: 25px;
-    margin-bottom: 20px;
+    border-radius: 1.5625em;
+    margin-bottom: 1.25em;
 } */
 
 .gallery .products{
-    margin-top: 60px;
+    margin-top: 3.75em;
 }
 
 .gallery .products .food-list{
@@ -548,27 +562,27 @@ a{
 
 .gallery .products .food-item{
     width: 100%;
-    min-height: 340px;
-    max-height: 600px;
+    min-height: 21.25em;
+    max-height: 37.5em;
     background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.100);
-    border-radius: 15px;
-    margin-top: 30px;
+    box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
+    border-radius: 0.9375em;
+    margin-top: 1.875em;
 }
 
 .gallery .products .food-item a img{
     width: 100%;
-    margin-bottom: 10px;
-    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 0.625em;
+    border-radius: 0.9375em 0.9375em 0em 0em;
 }
 
 .gallery .products .food-item .title{
     color: #322000;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25em;
     float: left;
-    padding: 0px 20px 20px 20px;
+    padding: 0em 0.5em 1em 0.5em;
 }
 
 .gallery .products .hide {
@@ -578,20 +592,20 @@ a{
 
 /* About me */
 .about_me .title {
-    font-size: 50px;
+    font-size: 3.125em;
 }
 .about_me .content .title{
     font-family: BEBAS NEUE BOLD;
-    font-size: 160px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    font-size: 10em;
+    margin-top: 0.05em;
+    margin-bottom: 0.2em;
     float: left;
 }
 
 .about_me .content .description{
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
-    margin-top: 15px;
+    font-size: 1.5625em;
+    margin-top: 0.5em;
     float: left;
 }
 
@@ -605,29 +619,29 @@ a{
 
 .about_me .content .avt{
     width: 100%;
-    margin-top: -180px;
+    margin-top: -11.25em;
 }
 
 
 .about_me .timeline .title{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 55px;
+    font-size: 3.5em;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 1.5em;
 }
 
 .about_me .timeline .bar{
     width: 80%;
-    height: 5px;
-    border-radius: 20px;
+    height: 0.3125em;
+    border-radius: 1.25em;
     background-color: #F17B78;
     margin: auto;
     position: relative;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.875em;
 }    
 
 .about_me .timeline .bar li{
@@ -637,14 +651,14 @@ a{
 }
 
 .about_me .timeline .bar .point{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 3.125em;
     background-color: #ffffff;
-    border: 4.5px solid #F17B78;
+    border: 0.3em solid #F17B78;
     box-sizing: content-box;
     position: absolute;
-    top: -11.5px;
+    top: -0.7em;
     margin-left: 14%;
 } 
 
@@ -652,28 +666,28 @@ a{
     color: #322000;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: 22px;
-    margin-top: 30px;
+    font-size: 1.375em;
+    margin-top: 1.875em;
 } 
 
 .about_me .timeline .bar .description{
     color: #322000;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125em;
 } 
 
 .about_me .timeline{
     width: 100%;
-    height: 310px;
+    height: 24em;
 }
     
 .about_me .strengths .container{
-    height: 400px;
+    height: 25em;
     background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.100);
-    border-radius: 25px;
-    padding: 0px;
+    box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
+    border-radius: 1.5625em;
+    padding: 0em;
     display: flex;
 }
 
@@ -681,7 +695,7 @@ a{
     width: 80%;
     height: 100%;
     background-color: #FFDFCA;
-    border-radius: 25px;
+    border-radius: 1.5625em;
     float: left;
     position: relative;
 }
@@ -689,22 +703,23 @@ a{
 .about_me .strengths .container .image_base img{
     width: 55%;
     position: absolute;
-    letter-spacing: 0px;
-    bottom: 0px;
+    letter-spacing: 0em;
+    bottom: 0em;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .about_me .strengths .container .content{
-    padding: 60px 60px 60px 60px;
+    padding: 3.75em 3.75em 3.75em 3.75em;
 }
 
 .about_me .strengths .container .content .title{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 55px;
+    font-size: 3.5em;
     padding-right: 50%;
-    margin-top: 0px;
+    margin-top: 0em;
+    margin-bottom: 0.3em;
 }
 
 .about_me .strengths .container .content .description{
@@ -713,26 +728,26 @@ a{
 
 .about_me .strengths .container .content .description i{
     color: #F17B78;
-    padding-right: 10px;
-    font-size: 25px;
+    padding-right: 0.625em;
+    font-size: 1.5625em;
 }
 
 .about_me .strengths .container .content .description span{
     color: #322000;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 1em;
+    margin-top: 1.3em;
 }
 
 .about_me .hobbies{
-    height: 250px;
-    margin-top: 80px;
+    height: 15.625em;
+    margin-top: 7em;
 }
 
 .about_me .hobbies .title{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 55px;
+    font-size: 3.5em;
     text-align: center;
 }
 
@@ -740,21 +755,21 @@ a{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .about_me .hobbies .base .activity{
-    width: 120px;
+    width: 7.5em;
     height: 100%;
 }
 
 
 .about_me .hobbies .base .activity .bg{
-    width: 120px;
-    height: 120px;
-    border-radius: 15px;
+    width: 7.5em;
+    height: 7.5em;
+    border-radius: 0.9375em;
     background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.100);
+    box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -773,13 +788,13 @@ a{
     text-align: center;
     color: #322000;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 1.25em;
+    margin-top: 0.3125em;
     transition: 0.3s;
 }
 
 .about_me .hobbies .base .activity:hover p{
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 500;
 }
 
@@ -793,75 +808,73 @@ a{
 
 .about_me .favorite_songs .container{
     display: flex;
-    height: 485px;
+    height: 30.3125em;
     width: 100%;
     background-color: white;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.100);
-    border-radius: 25px;
-    margin-top: 80px;
+    box-shadow: 0em 0em 3.125em rgba(0, 0, 0, 0.100);
+    border-radius: 1.5625em;
+    margin-top: 5em;
 }
 
 .about_me .favorite_songs .container .content{
-    padding: 16px 48px;
+    padding: 1em 3em;
     width: 100%;
 }
 
 .about_me .favorite_songs .container .content .my-playlist{
-    height: 315px;
-    margin-top: 15px;
-
+    height: 19.6875em;
+    margin-top: 0em;
 }
 
 .about_me .favorite_songs .container .content .playlist-head{
     width: 100%;
-    padding-top: 2.48px;
+    padding-top: 1em;
 }
 
 .about_me .favorite_songs .container .content .playlist-head h4{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 55px;
+    font-size: 3.5em;
 }
 
 .about_me .favorite_songs .container .content .playlist{
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 0.5em;
     width: 100%;
-    padding: 5px 0;
+    padding: 0.3em 0;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #322000;
 }
 
 .about_me .favorite_songs .container .content .playlist-list__title{
-    font-size: 14px;
-    margin-top: 35px;
-    margin-bottom: 8px;
+    font-size: 0.875em;
+    margin-top: 2.1875em;
+    margin-bottom: 0.5em;
     font-weight: bold;
-
 }
 
 .about_me .favorite_songs .container .content .playlist__number{
-    width: 24px;
-    min-width: 24px;
+    width: 3em;
+    min-width: 1em;
 }
 
 .about_me .favorite_songs .container .content .playlist__title{
-    width: 272px;
-    min-width:272px;
+    width: 21.8em;
+    min-width: 15em;
 }
 
 .about_me .favorite_songs .container .content .playlist__artist{
-    width: 192px;
-    min-width: 192px;
-    
+    width: 16em;
+    min-width: 15em;
+    float: left;
 }
 
 .about_me .favorite_songs .container .content .playlist__time{
     flex: 1;
     text-align: right;
-    padding-right: 32px;
+    padding-right: 0em;
 }
 
 .about_me .favorite_songs .container .content .playlist--hover:hover{
@@ -887,43 +900,42 @@ a{
             PLAY-SONGS
 ======================================*/
 .about_me .favorite_songs .container .content .play-song{
-    padding:0px 32px 24px 0px;
-    margin-top: 5px;
-    border-radius: 8px;
-   
+    padding: 0em 0em 1.5em 0em;
+    margin-top: 0.3125em;
+    border-radius: 0.5em;
 }
 
 .about_me .favorite_songs .container .content .play-control{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 20px;
-    padding: 20px 0 16px;
+    font-size: 1.25em;
+    padding: 1.25em 0 1em;
     color: #3220007c;
 }
 
 .about_me .favorite_songs .container .content .play-control__act{
-    width: 160px;
+    width: 10em;
 }
 
 .about_me .favorite_songs .container .content .play-control__act i{
-    padding: 0px 8px 0px 0px;
+    padding: 0em 0.5em 0em 0em;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1em;
     color: #3220007c;
 }
 
 .about_me .favorite_songs .container .content .play-control__repeat{
-    width: 160px;
+    width: 10em;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     cursor: pointer;
-    padding-right: 5px;
+    padding-right: 0.3125em;
 }
 
 .about_me .favorite_songs .container .content .play-control__repeat i{
-    font-size: 18px;
+    font-size: 1em;
 }
 
 
@@ -932,7 +944,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 1em;
 }
 
 .about_me .favorite_songs .container .content .play-control__main i{
@@ -941,44 +953,44 @@ a{
 }
 
 .about_me .favorite_songs .container .content .main-icon{
-    font-size: 25px;
+    font-size: 1.25em;
 }
 
 .about_me .favorite_songs .container .content .main-icon--big{
-    font-size: 45px
+    font-size: 2.25em;
 }
 
 .range{
     flex:1;
     appearance: none;
-    height: 4px;
+    height: 0.25em;
     background-color: #C4C4C4;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.3125em;
 } 
 
 .about_me .favorite_songs .container .content .range::-webkit-slider-thumb{
     appearance: none;
     background-color: #fff;
-    height: 16px;
-    width: 16px;
+    height: 1em;
+    width: 1em;
     border-radius: 50%;
-    border: 4px solid #F17B78;
+    border: 0.25em solid #F17B78;
     cursor: pointer;
 }
 
 .about_me .favorite_songs .container .content .play-seekbar{
     display: flex;
     align-items: center;
-    gap:24px;
+    gap:1.5em;
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
+    font-size: 01em;
     color: #322000;
 }
 
 .about_me .favorite_songs .container .content .timer__left, .timer__right{
-    width: 25px;
-    max-width: 25px;
+    width: 1.5625em;
+    max-width: 1.5625em;
 }
 
 .about_me .favorite_songs .container .content .play-repeat,.shuffle-song,#heart{
@@ -988,8 +1000,8 @@ a{
 .about_me .favorite_songs .image_base{
     width: 100%;
     background-color: #FFF2E6;
-    height: 485px;
-    border-radius: 0px 25px 25px 0px;
+    height: 30.3125em;
+    border-radius: 0em 1.5625em 1.5625em 0em;
     display: flex;
     align-items: center;
 }
@@ -1006,7 +1018,7 @@ a{
 }
 
 .myCv .banner_top{
-    height: 0px;
+    height: 0em;
 }
 
 .myCv .content{
@@ -1015,29 +1027,29 @@ a{
 
 .myCv .content .title{
     font-family: BEBAS NEUE BOLD;
-    font-size: 160px;
-    margin-top: 120px;
+    font-size: 10em;
+    margin-top: 0.5em;
     text-align: center;
     color: #322000;
 }
 
 .myCv .content .button{
-    margin-top: 20px;
+    margin-top: 1.25em;
     display: flex;
     justify-content: center;
 }
 
 .myCv .content .button button{
     color: #F17B78;
-	border: 3px solid #F17B78;
-	padding: 10px 30px;
-	border-radius: 50px;
+	border: 0.1875em solid #F17B78;
+	padding: 0.625em 1.875em;
+	border-radius: 3.125em;
 	transition: 0.3s;
 	cursor: pointer;
 	background-color: transparent;
-	margin: 5px;
+	margin: 0.3125em;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
 	font-weight: 600;
     text-align: center;
 }
@@ -1054,7 +1066,7 @@ a{
 }
 
 .myCv .content .cv{
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .myCv .content .cv .image{
@@ -1078,7 +1090,7 @@ a{
 /* Gallery details */
 .gallery_details .banner_top{
     background-color: white;
-    height: 70px;
+    height: 4.375em;
 }
 
 .gallery_details{
@@ -1086,12 +1098,12 @@ a{
 }
 
 .gallery_details .btn {
-    margin-top: 50px;
+    margin-top: 3.125em;
     color: #F17B78;
 	background-color: white;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-	padding: 5px 10px;
-	border-radius: 50px;
+    box-shadow: 0em 0em 1.25em rgba(0, 0, 0, 0.15);
+	padding: 0.3125em 0.625em;
+	border-radius: 3.125em;
 	transition: 0.3s;
 	cursor: pointer;
     text-align: center;
@@ -1107,22 +1119,22 @@ a{
 
 .gallery_details .btn p{
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
 	font-weight: 600;
 }
 
 .gallery_details .title{
-    height: 30px;
+    height: 1.875em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .gallery_details .title .name{
     font-family: BEBAS NEUE BOLD;
     color: #322000;
-    font-size: 45px;
+    font-size: 2.8125em;
 }
 
 .gallery_details .title .software{
@@ -1130,35 +1142,35 @@ a{
 }
 
 .gallery_details .title .software .icon{
-    width: 40px;
-    height: 40px;
-    border-radius: 25px;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 1.5625em;
     color: white;
     background-color: #F17B78;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.150);
+    box-shadow: 0em 0em 1.25em rgba(0, 0, 0, 0.150);
     box-sizing: content-box;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
     float: right;
-    margin-left: 5px;
+    margin-left: 0.3125em;
 }
 
 .gallery_details .title .software .icon p{
     font-family: 'Cabin', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .gallery_details .images{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .gallery_details .images img{
     width: 100%;
-    margin-top: 5px;
+    margin-top: 0.3125em;
 }
 
 
@@ -1173,10 +1185,10 @@ a{
 	position: relative;
     overflow: hidden;
 	margin: auto;
-    margin-top: 20px;
+    margin-top: 1.25em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .gallery_details .player__controls {
@@ -1198,15 +1210,15 @@ a{
 }
 
 .gallery_details .player__controls > * {
-	margin: 5px;
+	margin: 0.3125em;
 }
 
 .gallery_details .player__progress {
 	flex: 1;
-	height: 8px;
+	height: 0.5em;
 	background-color: #fff;
     position: relative;
-    border-radius: 50px;
+    border-radius: 3.125em;
     cursor: pointer;
 }
 
@@ -1216,7 +1228,7 @@ a{
     left: 0;
     height: 100%;
     background-color: #F17B78;
-    border-radius: 50px;
+    border-radius: 3.125em;
     cursor: pointer;
 }
 
@@ -1229,7 +1241,7 @@ a{
     top: 10%;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .gallery_details .player__button:hover {
@@ -1237,12 +1249,12 @@ a{
 }
 
 .gallery_details .toggle {
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 .gallery_details .player__volume input {
     position: relative;
-    top: 1px;
+    top: 0.0625em;
     cursor: pointer;
 }
 
@@ -1259,7 +1271,7 @@ a{
 
 
 /* Mobile & Tablet */
-@media (max-width: 1023px){
+@media (max-width: 63.9375em){
     .hide_on_mobile_tablet{
         display: none;
     }
@@ -1268,11 +1280,11 @@ a{
 
 
 /* >Tablet */
-@media (min-width: 740px) and (max-width: 1023px){
+@media (min-width: 46.25em) and (max-width: 63.9375em){
     .popup_layer .overlay i{
         top: 5%;
         right: 5%;
-        font-size: 30px;
+        font-size: 1.875em;
     }
     
     .popup_layer .image_layer{
@@ -1285,11 +1297,11 @@ a{
     }
 
     .banner_top{
-        height: 480px;
+        height: 30em;
     }
 
     .banner_top .menu_scroll{
-        height: 100px;
+        height: 6.25em;
         background-color: transparent;
         position: fixed;
         width: 100%;
@@ -1299,32 +1311,32 @@ a{
     .banner_top .menu .menu_items{
         font-family: BEBAS NEUE BOOK;
         color: #322000;
-        font-size: 32px;
+        font-size: 1.7em;
     }
     
     .banner_top .menu .menu_items .item{
         list-style: none;
-        padding: 0px 0px 0px 35px;
+        padding: 0em 0em 0em 1.5em;
         float: right;
-        line-height: 110px;
+        line-height: 3.5em;
         transition: 0.3s;
     }
 
     .banner_top .menu .menu_items .item_scrolled{
-        font-size: 28px;
-        line-height: 70px;
-        padding: 0px 0px 0px 30px;
+        font-size: 0.9em;
+        line-height: 3em;
+        padding: 0em 0em 0em 1.5em;
     }
     
     .banner_top .menu_scrolled{
-        height: 70px;
+        height: 4.375em;
         background-color: rgb(255, 255, 255);
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.100);
-        border-bottom: 1px solid #32200025;
+        box-shadow: 0em 0em 0.625em rgba(0, 0, 0, 0.100);
+        border-bottom: 0.0625em solid #32200025;
     }
     
     .banner_top .menu .logo .logo_top{
-        width: 30px;
+        width: 1.875em;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -1332,37 +1344,37 @@ a{
     }
     
     .banner_top .menu .logo .logo_scrolled{
-        width: 25px;
+        width: 1.5625em;
     }
 
     .banner_top .content{
-        padding-top: 110px;
+        padding-top: 6.875em;
     }
     
     .banner_top .introduce .name{
-        font-size: 80px;
+        font-size: 6em;
     }
     
     .banner_top .introduce .job{
-        font-size: 30px;
-        margin-top: 0px;
+        font-size: 2em;
+        margin-top: 0em;
     }
     
     .banner_top .introduce .description{
-        margin-top: 20px;
-        font-size: 12px;
+        margin-top: 1.25em;
+        font-size: 0.8em;
     }
     
     .banner_top .introduce a{
-        line-height: 24px;
+        line-height: 1.5em;
     }
     
     .banner_top .introduce .button{
-        font-size: 12px;
-        margin-top: 40px;
-        width: 100px;
-        height: 30px;
-        border: 3px solid #F17B78;
+        font-size: 0.8em;
+        margin-top: 2.5em;
+        width: 8.25em;
+        height: 1.875em;
+        border: 0.15em solid #F17B78;
     }
     
     .banner_top .content .avt img{
@@ -1371,9 +1383,9 @@ a{
     }
 
     .who_am_i .container{
-        height: 250px;
+        height: 15.625em;
         background-color: white;
-        margin-top: 80px;
+        margin-top: 5em;
     }
     
     .who_am_i .container .image_base{
@@ -1381,197 +1393,199 @@ a{
     }
     
     .who_am_i .container .content{
-        padding: 50px 30px 30px 30px;
+        padding: 3.125em 1.875em 1.875em 1.875em;
     }
     
     .who_am_i .container .content .question1{
-        font-size: 40px;
+        font-size: 2.5em;
     }
     
     .who_am_i .container .content .description{
-        font-size: 15px;
-        margin-top: 10px;
+        font-size: 1em;
+        margin-top: 0.625em;
     }
 
     .what_software .container{
-        margin-top: 80px;
+        margin-top: 5em;
     } 
     
     .what_software .title{
-        font-size: 45px;
-        padding-top: 30px;
+        font-size: 2.5em;
+        padding-top: 0.5em;
     } 
     
     .what_software .software{
-        padding-top: 12px;
+        padding-top: 0.75em;
     }
     
     .what_software .software img{
-        width: 100px;
-        padding: 5px 20px;
+        width: 3.5em;
+        padding: 0.3125em 1em;
+        transition: none;
     } 
     
     .what_my_abilities .title{
-        font-size: 45px;
+        font-size: 2.5em;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 2.5em;
         text-transform: uppercase;
     }
     
     .what_my_abilities .box{
-        min-height: 350px;
-        max-height: 500px;
-        margin-top: 20px;
+        min-height: 20.5em;
+        max-height: 31.25em;
+        margin-top: 1.25em;
     }
 
     .what_my_abilities .box .title{
-        font-size: 20px;
-        padding: 10px 10px 10px 10px;
+        font-size: 1.25em;
+        padding: 0.3em 0.2em 0.2em 0.625em;
         float: left;
     }
     
     .what_my_abilities .box .description{
-        font-size: 15px;
-        padding-top: 6px;
+        font-size: 0.9em;
+        padding-top: 0.375em;
         float: left;
-        padding: 0px 10px 10px 10px;
+        padding: 0em 0.625em 0.625em 0.625em;
     }
+
     
     .footer .line{
-        height: 3px;
-        margin-top: 150px;
+        height: 0.1875em;
+        margin-top: 9.375em;
     }
     
     .footer .right{
-        font-size: 12px;
-        margin-top: 5px;
+        font-size: 0.75em;
+        margin-top: 0.3125em;
     }
     
     .footer .social_media .icon{
-        width: 30px;
-        height: 30px;
-        margin-left: 8px;
-        margin-top: 5px;
+        width: 1.875em;
+        height: 1.875em;
+        margin-left: 0.5em;
+        margin-top: 0.3125em;
     }
 
     .footer .social_media .icon i{
-        font-size: 16px;
+        font-size: 1em;
     }
     
 
     /* Gallery */
     .gallery .content .title{
-        font-size: 80px;
-        margin-top: 0px;
+        font-size: 5em;
+        margin-top: 0em;
     }
 
     .gallery .content .description{
         font-family: 'Quicksand', sans-serif;
-        font-size: 15px;
-        margin-top: 10px;
+        font-size: 1em;
+        margin-top: 0.3em;
     }
 
     .gallery .content .shape{
-        margin-top: 30px;
+        margin-top: 1.875em;
     }
 
     .gallery .content .shape1{
         width: 30%;
-        padding-left: 10px;
+        padding-left: 0.625em;
     }
 
     .gallery .content .shape2{
         width: 90%;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 1.25em;
     }
 
     .gallery .content .shape3{
         width: 50%;
         float: right;
-        padding-right: 20px;
-        margin-top: 50px;
+        padding-right: 1.25em;
+        margin-top: 3.125em;
     }
 
     .gallery .products{
-        margin-top: 30px;
+        margin-top: 1.875em;
     }
     
     .gallery .products .food-item{
-        min-height: 220px;
-        max-height: 400px;
-        margin-top: 15px;
-        border-radius: 10px;
+        min-height: 13.5em;
+        max-height: 25em;
+        margin-top: 0.9375em;
+        border-radius: 0.625em;
     }
     
     .gallery .products .food-item a img{
-        margin-bottom: 5px;
-        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 0.3125em;
+        border-radius: 0.625em 0.625em 0em 0em;
     }
     
     .gallery .products .food-item .title{
-        font-size: 15px;
+        font-size: 1em;
     }
 
     /* About me */
     .about_me .content .title{
-        font-size: 80px;
-        margin-top: 5px;
-        margin-bottom: 20px;
+        font-size: 5em;
+        margin-top: 0em;
+        margin-bottom: 0.25em;
     }
 
     .about_me .content .description{
-        font-size: 18px;
-        margin-top: 0px;
-        margin-bottom: 8px;
+        font-size: 1.125em;
+        margin-top: 0em;
+        margin-bottom: 0.5em;
     }
 
     .about_me .content .avt{
         width: 110%;
-        margin-top: -100px;
-        margin-left: -20px;
+        margin-top: -6.25em;
+        margin-left: -1.25em;
     }
     
     .about_me .timeline{
         width: 100%;
-        height: 250px;
+        height: 15.625em;
     }
     
     .about_me .timeline .title{
-        font-size: 40px;
-        padding-top: 50px;
+        font-size: 2.5em;
+        padding-top: 1.25em;
     }
     
     .about_me .timeline .bar{
         width: 80%;
-        height: 4px;
-        margin-top: 20px;
+        height: 0.25em;
+        margin-top: 1.25em;
     }    
     
     .about_me .timeline .bar li{
     }
     
     .about_me .timeline .bar .point{
-        width: 12px;
-        height: 12px;
-        border: 3.5px solid #F17B78;
-        top: -8.5px;
+        width: 0.75em;
+        height: 0.75em;
+        border: 3.0.3125em solid #F17B78;
+        top: -8.0.3125em;
         margin-left: 14%;
     } 
     
     .about_me .timeline .bar .date{
-        font-size: 20px;
-        margin-top: 20px;
+        font-size: 1.25em;
+        margin-top: 1.25em;
     } 
     
     .about_me .timeline .bar .description{
         font-weight: 400;
-        font-size: 15px;
+        font-size: 0.9375em;
     } 
 
     .about_me .strengths .container{
-        height: 220px;
-        border-radius: 20px;
+        height: 13.75em;
+        border-radius: 1.25em;
     }
     
     .about_me .strengths .container .image_base{
@@ -1580,46 +1594,46 @@ a{
     }
     
     .about_me .strengths .container .content{
-        padding: 20px 5px 5px 30px;
+        padding: 1.25em 0.3125em 0.3125em 1.25em;
     }
     
     .about_me .strengths .container .content .title{
-        font-size: 40px;
-        margin-bottom: 20px;
+        font-size: 2.5em;
+        margin-bottom: 0.25em;
     }
 
     .about_me .strengths .container .content .description i{
-        padding-right: 8px;
-        font-size: 18px;
+        padding-right: 0.5em;
+        font-size: 1.125em;
     }
     
     .about_me .strengths .container .content .description span{
-        font-size: 15px;
-        margin-top: 10px;
+        font-size: 1em;
+        margin-top: 0.625em;
     }
 
     .about_me .hobbies{
-        height: 160px;
-        margin-top: 60px;
+        height: 10em;
+        margin-top: 3.75em;
     }
     
     .about_me .hobbies .title{
-        font-size: 40px;
+        font-size: 2.5em;
     }
     
     .about_me .hobbies .base{
-        margin-top: 10px;
+        margin-top: 0.625em;
     }
     
     .about_me .hobbies .base .activity{
-        width: 80px;
+        width: 5em;
         height: 100%;
     }
     
     .about_me .hobbies .base .activity .bg{
-        width: 80px;
-        height: 80px;
-        border-radius: 12px;
+        width: 5em;
+        height: 5em;
+        border-radius: 0.75em;
     }
     
     .about_me .hobbies .base .activity .bg img{
@@ -1631,12 +1645,12 @@ a{
     }
     
     .about_me .hobbies .base .activity p{
-        font-size: 15px;
-        margin-top: 5px;
+        font-size: 0.9375em;
+        margin-top: 0.3125em;
     }
     
     .about_me .hobbies .base .activity:hover p{
-        font-size: 17px;
+        font-size: 1.0625em;
     }
 
     /*======================================
@@ -1647,57 +1661,56 @@ a{
     }
 
     .about_me .favorite_songs .container{
-        height: 380px;
-        border-radius: 20px;
-        margin-top: 50px;
+        height: 23.75em;
+        border-radius: 1.25em;
+        margin-top: 4em;
     }
 
     .about_me .favorite_songs .container .content{
-        padding: 10px 30px;
+        padding: 0.625em 1.875em;
     }
 
     .about_me .favorite_songs .container .content .my-playlist{
-        height: 250px;
-        margin-top: 15px;
+        height: 15.625em;
+        margin-top: 0.9375em;
     }
 
     .about_me .favorite_songs .container .content .playlist-head{
     }
 
     .about_me .favorite_songs .container .content .playlist-head h4{
-        font-size: 40px;
+        font-size: 2.5em;
     }
 
     .about_me .favorite_songs .container .content .playlist{
-        padding: 5px 0;
-        font-size: 15px;
+        padding: 0.3125em 0;
+        font-size: 0.9375em;
     }
 
     .about_me .favorite_songs .container .content .playlist-list__title{
-        font-size: 12px;
-        margin-top: 25px;
-        margin-bottom: 5px;
+        font-size: 0.75em;
+        margin-top: 1.5625em;
+        margin-bottom: 0.3125em;
 
     }
 
     .about_me .favorite_songs .container .content .playlist__number{
-        width: 20px;
-        min-width: 20px;
+        width: 1.5em;
+        min-width: 1.25em;
     }
 
     .about_me .favorite_songs .container .content .playlist__title{
-        width: 270px;
-        min-width:270px;
+        width: 21.6em;
+        min-width: 16.875em;
     }
 
     .about_me .favorite_songs .container .content .playlist__artist{
-        width: 190px;
-        min-width: 190px;
-        
+        width: 17em;
+        min-width: 17em;
     }
 
     .about_me .favorite_songs .container .content .playlist__time{
-        padding-right: 32px;
+        padding-right: 2em;
     }
 
 
@@ -1705,70 +1718,72 @@ a{
                 PLAY-SONGS
     ======================================*/
     .about_me .favorite_songs .container .content .play-song{
-        padding: 5px 5px 10px 0px;
-        margin-top: 5px;
+        padding: 0.3125em 0.3125em 0.625em 0em;
+        margin-top: 0.3125em;
     
     }
 
     .about_me .favorite_songs .container .content .play-control{
-        font-size: 15px;
-        padding: 12px 0px 12px;
+        font-size: 0.9375em;
+        padding: 0.75em 0em 0.75em;
     }
 
     .about_me .favorite_songs .container .content .play-control__act{
-        width: 180px;
-        padding-right: 30px;
+        width: 11.25em;
+        padding-right: 1.875em;
     }
 
     .about_me .favorite_songs .container .content .play-control__act i{
-        padding: 0px 8px 0px 0px;
-        font-size: 18px;
+        padding: 0em 0.5em 0em 0em;
+        font-size: 1.125em;
     }
 
     .about_me .favorite_songs .container .content .play-control__repeat{
-        width: 160px;
-        padding-right: 5px;
+        width: 10em;
+        padding-right: 0.3125em;
     }
 
     .about_me .favorite_songs .container .content .play-control__repeat i{
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
 
     .about_me .favorite_songs .container .content .play-control__main{
-        gap: 16px;
+        gap: 1em;
     }
     
     
     .about_me .favorite_songs .container .content .main-icon{
-        font-size: 20px;
+        font-size: 1.25em;
     }
     
     .about_me .favorite_songs .container .content .main-icon--big{
-        font-size: 35px
+        font-size: 2.1875em
     }
 
     .range{
-        height: 3px;
-        border-radius: 5px;
+        height: 0.1875em;
+        border-radius: 0.3125em;
     } 
 
 
     .about_me .favorite_songs .container .content .play-seekbar{
-        gap:24px;
+        gap:1.5em;
         font-family: 'Quicksand', sans-serif;
-        font-size: 13px;
+        font-size: 0.8125em;
     }
 
     .about_me .favorite_songs .container .content .timer__left, .timer__right{
-        width: 25px;
-        max-width: 25px;
+        width: 1.5625em;
+        max-width: 1.5625em;
     }
 
 
     .about_me .favorite_songs .image_base{
         display: none;
     }
+
+    
 
 
     /* My CV */
@@ -1781,46 +1796,46 @@ a{
     }
 
     .myCv .content .title{
-        font-size: 80px;
-        margin-top: 115px;
+        font-size: 5em;
+        margin-top: 7.1875em;
     }
 
     .myCv .content .button{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 1.25em;
     }
 
     .myCv .content .button button{
-        border: 2.5px solid #F17B78;
-        padding: 8px 20px;
-        margin: 5px;
-        font-size: 15px;
+        border: 2.0.3125em solid #F17B78;
+        padding: 0.5em 1.25em;
+        margin: 0.3125em;
+        font-size: 0.9375em;
     }
 
     .myCv .content .cv{
-        margin-top: 10px;
+        margin-top: 0.625em;
     }
 
 
     /* My CV */
 
     .myCv .banner_top{
-        height: 0px;
+        height: 0em;
     }
 
     .myCv .content .title{
-        font-size: 80px;
-        margin-top: 100px;
+        font-size: 5em;
+        margin-top: 1.25em;
     }
 
     .myCv .content .button{
-        margin-top: 15px;
+        margin-top: 0.9375em;
     }
 
     .myCv .content .button button{
-        padding: 8px 20px;
-        margin: 5px;
-        font-size: 15px;
+        padding: 0.5em 1.25em;
+        margin: 0.3125em;
+        font-size: 1em;
     }
 
     .myCv .content .button button:hover{
@@ -1829,13 +1844,13 @@ a{
     }
 
     .myCv .content .cv{
-        margin-top: 15px;
+        margin-top: 0.9375em;
     }
 
 
     /* Gallery details */
     .gallery_details .banner_top{
-        height: 50px;
+        height: 3.125em;
     }
 
     .gallery_details{
@@ -1843,22 +1858,22 @@ a{
     }
 
     .gallery_details .btn {
-        margin-top: 50px;
-        padding: 5px 10px;
+        margin-top: 3.125em;
+        padding: 0.3125em 0.625em;
         width: 12%;
     }
 
     .gallery_details .btn p{
-        font-size: 15px;
+        font-size: 0.9375em;
     }
 
     .gallery_details .title{
-        height: 40px;
-        margin-top: 15px;
+        height: 2.5em;
+        margin-top: 0.9375em;
     }
 
     .gallery_details .title .name{
-        font-size: 30px;
+        font-size: 1.875em;
     }
 
     .gallery_details .title .software{
@@ -1866,47 +1881,47 @@ a{
     }
 
     .gallery_details .title .software .icon{
-        width: 35px;
-        height: 35px;
-        border-radius: 25px;
-        margin-left: 5px;
+        width: 2.1875em;
+        height: 2.1875em;
+        border-radius: 1.5625em;
+        margin-left: 0.3125em;
     }
 
     .gallery_details .title .software .icon p{
-        font-size: 15px;
+        font-size: 0.9375em;
     }
 
     .gallery_details .images{
-        margin-top: 5px;
+        margin-top: 0.3125em;
     }
 
     .gallery_details .images img{
-        margin-top: 5px;
+        margin-top: 0.3125em;
     }
 
 
     /* video */
     .gallery_details .player {
         width: 100%;
-        margin-top: 15px;
+        margin-top: 0.9375em;
         font-family: 'Quicksand', sans-serif;
-        font-size: 14px;
+        font-size: 0.875em;
     }
 
     .gallery_details .player__progress {
-        height: 6px;
+        height: 0.375em;
     }
 
     .gallery_details .player__button {
-        font-size: 10px;
+        font-size: 0.625em;
     }
 
     .gallery_details .toggle {
-        font-size: 25px;
+        font-size: 1.5625em;
     }
 
     .gallery_details .player__volume input {
-        top: 2.5px;
+        top: 2.0.3125em;
     }
 
 
@@ -1915,11 +1930,11 @@ a{
 }
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
     .popup_layer .overlay i{
         top: 5%;
         right: 5%;
-        font-size: 30px;
+        font-size: 1.875em;
     }
     
     .popup_layer .image_layer{
@@ -1935,7 +1950,7 @@ a{
 
     /* Home */
     .banner_top{
-        height: 450px;
+        height: 28.125em;
     }
 
     .banner_top .menu{
@@ -1953,97 +1968,101 @@ a{
     .banner_top .menu .menu_icon_bar{
         position: absolute;
         top: 50%;
-        right: 9%;
-        transform: translateY(-50%);
-        font-size: 40px;
-        width: 40px;
-        height: 40px;
+        right: -55%;
+        transform: translateY(-45%);
+        font-size: 2.5em;
+        width: 100%;
     }
 
     .banner_top .content{
-        padding-top: 70px;
+        padding-top: 4.375em;
         text-align: center;
     }
     
     .banner_top .introduce .name{
-        font-size: 90px;
+        font-size: 5.625em;
     }
     
     .banner_top .introduce .job{
-        font-size: 30px;
-        margin-top: -10px;
+        font-size: 1.875em;
+        margin-top: -0.3em;
     }
     
     .banner_top .introduce .description{
-        margin-top: 15px;
-        font-size: 15px;
-        padding: 0px 8.33333%;
+        margin-top: 0.55em;
+        font-size: 0.9375em;
+        padding: 0em 8.33333%;
     }
     
     .banner_top .introduce a{
-        line-height: 24px;
+        line-height: 1.5em;
     }
     
     .banner_top .introduce .button{
-        font-size: 15px;
-        width: 120px;
-        height: 30px;
-        border: 3px solid #F17B78;
+        font-size: 0.9375em;
+        width: 7.5em;
+        height: 1.875em;
+        border: 0.1875em solid #F17B78;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 1.875em;
     }
     
     .who_am_i {
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .who_am_i .container{
-        height: 160px;
-        margin-top: 40px;
+        height: 10em;
+        margin-top: 2.5em;
     }
     
     .who_am_i .container .content{
-        padding: 20px 30px;
+        padding: 1.25em 1.875em;
     }
     
     .who_am_i .container .content .question1{
-        font-size: 30px;
+        font-size: 1.875em;
     }
     
     .who_am_i .container .content .description{
-        font-size: 13px;
-        margin-top: 8px;
+        font-size: 0.8125em;
+        margin-top: 0.5em;
     }
 
     .what_software {
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
     
     .what_software .container{
-        margin-top: 40px;
+        margin-top: 2em;
     } 
     
     .what_software .title{
-        font-size: 30px;
-        padding-top: 20px;
+        font-size: 1.875em;
+        padding-top: 1.25em;
     } 
     
     .what_software .software{
-        padding-top: 8px;
+        padding-top: 0.5em;
     }
     
-    .what_software .software img{
-        width: 65px;
-        padding: 5px 10px;
+    .what_software .software .bg img{
+        width: 3.5em;
+        padding: 0.3125em 0.625em;
+        transition: none;
     } 
 
+    .what_software .software .bg:hover img{
+        width: 3.5em;
+    }
+
     .what_my_abilities{
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .what_my_abilities .title{
-        font-size: 30px;
-        padding-top: 50px;
+        font-size: 1.875em;
+        padding-top: 1em;
     }
     
     .what_my_abilities .box{
@@ -2051,146 +2070,159 @@ a{
     }
 
     .what_my_abilities .box .title{
-        font-size: 20px;
-        padding: 10px 10px 10px 10px;
+        font-size: 1.25em;
+        padding: 0.625em 0.625em 0.625em 0.625em;
         float: left;
     }
     
     .what_my_abilities .box .description{
-        font-size: 13px;
-        padding-top: 6px;
+        font-size: 0.8125em;
+        padding-top: 0.375em;
         float: left;
-        padding: 0px 10px 10px 10px;
+        padding: 0em 0.625em 0.625em 0.625em;
+    }
+    
+    .comment_area{
+        padding: 0em 8.33333%;
+        padding-top: 15%;
     }
 
     .footer{
-        padding: 0px 8.33333%;
-        padding-bottom: 20px;
+        padding: 0em 8.33333%;
+        padding-bottom: 1.25em;
     }
 
     .footer .line{
-        height: 3px;
-        margin-top: 70px;
+        height: 0.1875em;
+        margin-top: 4.375em;
     }
     
     .footer .right{
-        font-size: 8px;
-        margin-top: 3px;
+        font-size: 0.5em;
+        margin-top: 0.1875em;
     }
     
     .footer .social_media .icon{
-        width: 25px;
-        height: 25px;
-        margin-left: 8px;
-        margin-top: 3px;
+        width: 1.5625em;
+        height: 1.5625em;
+        margin-left: 0.5em;
+        margin-top: 0.1875em;
     }
 
 
     /* Gallery */
+    .gallery .banner_top .menu .menu_mobile_items .first_row{
+        margin-top: 2.2em;
+    }
+
     .gallery .content .title_base{
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .gallery .content .title{
-        font-size: 70px;
-        margin-top: 35px;
+        font-size: 4.375em;
+        margin-top: 0.2em;
     }
 
     .gallery .content .description{
         font-family: 'Quicksand', sans-serif;
-        font-size: 14px;
-        margin-top: 10px;
+        font-size: 0.875em;
+        margin-top: 0.625em;
     }
 
     .footer .social_media .icon i{
-        font-size: 12px;
+        font-size: 0.75em;
     }
 
     .gallery .products{
-        margin-top: 15px;
-        padding: 0px 8.33333%;
+        margin-top: 0.9375em;
+        padding: 0em 8.33333%;
     }
     
     .gallery .products .food-item{
-        min-height: 280px;
-        max-height: 400px;
-        margin-top: 15px;
-        border-radius: 10px;
+        min-height: 17.5em;
+        max-height: 25em;
+        margin-top: 0.9375em;
+        border-radius: 0.625em;
     }
     
     .gallery .products .food-item .title{
-        font-size: 13px;
+        font-size: 0.8125em;
         float: left;
-        padding: 0px 10px 10px 10px;
+        padding: 0em 0.625em 0.625em 0.625em;
     }
 
     /* About me */
+    .about_me .banner_top .menu .menu_mobile_items .first_row{
+        margin-top: 2.2em;
+    }
+
     .about_me .content{
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .about_me .content .title{
-        font-size: 70px;
+        font-size: 4.375em;
         margin-top: 30%;
         margin-bottom: 3%;
     }
 
     .about_me .content .description{
-        font-size: 15px;
-        margin-top: 0px;
-        margin-bottom: 8px;
+        font-size: 0.9375em;
+        margin-top: 0em;
+        margin-bottom: 0.5em;
         float: none;
     }
     
     .about_me .timeline{
         width: 100%;
-        height: 180px;
+        height: 11.25em;
     }
 
     .about_me .timeline .title{
-        font-size: 30px;
-        padding-top: 40px;
+        font-size: 1.875em;
+        padding-top: 2.5em;
     }
     
     .about_me .timeline .bar{
-        height: 3px;
-        margin-top: 10px;
+        height: 0.1875em;
+        margin-top: 0.625em;
     }    
     
     
     .about_me .timeline .bar .point{
-        width: 10px;
-        height: 10px;
-        border: 3px solid #F17B78;
-        top: -7px;
+        width: 0.625em;
+        height: 0.625em;
+        border: 0.1875em solid #F17B78;
+        top: -0.4375em;
         margin-left: 14%;
     } 
     
     .about_me .timeline .bar .date{
-        font-size: 15px;
-        margin-top: 20px;
+        font-size: 0.9375em;
+        margin-top: 1.25em;
     } 
     
     .about_me .timeline .bar .description{
         font-weight: 400;
-        font-size: 10px;
+        font-size: 0.625em;
     } 
 
     .about_me .strengths{
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .about_me .strengths .container{
-        height: 180px;
-        margin-top: 0px;
+        height: 11.25em;
+        margin-top: 0em;
     }
     
     .about_me .strengths .container .content{
-        padding: 20px 30px;
+        padding: 1.25em 1.875em;
     }
     
     .about_me .strengths .container .content .title{
-        font-size: 30px;
+        font-size: 1.875em;
     }
 
     .about_me .strengths .container .content .description i{
@@ -2198,42 +2230,42 @@ a{
     }
     
     .about_me .strengths .container .content .description span{
-        font-size: 13px;
-        margin-top: 10px;
+        font-size: 0.8125em;
+        margin-top: 0.625em;
     }
 
     .about_me .hobbies{
-        height: 110px;
-        margin-top: 40px;
-        padding: 0px 8.33333%;
+        height: 6.875em;
+        margin-top: 2.5em;
+        padding: 0em 8.33333%;
     }
     
     .about_me .hobbies .title{
-        font-size: 30px;
+        font-size: 1.875em;
     }
     
     .about_me .hobbies .base{
-        margin-top: 10px;
+        margin-top: 0.625em;
     }
     
     .about_me .hobbies .base .activity{
-        width: 50px;
+        width: 3.125em;
         height: 100%;
     }
     
     .about_me .hobbies .base .activity .bg{
-        width: 50px;
-        height: 50px;
-        border-radius: 8px;
+        width: 3.125em;
+        height: 3.125em;
+        border-radius: 0.5em;
     }
     
     .about_me .hobbies .base .activity p{
-        font-size: 13px;
-        margin-top: 5px;
+        font-size: 0.8125em;
+        margin-top: 0.3125em;
     }
     
     .about_me .hobbies .base .activity:hover p{
-        font-size: 15px;
+        font-size: 0.9375em;
     }
 
 
@@ -2241,32 +2273,32 @@ a{
                 MAIN-.about_me CONTENT
     ======================================*/
     .favorite_songs{
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .about_me .favorite_songs .container{
-        height: 330px;
-        border-radius: 20px;
-        margin-top: 50px;
+        height: 20.625em;
+        border-radius: 1.25em;
+        margin-top: 3.125em;
     }
 
     .about_me .favorite_songs .container .content{
-        padding: 10px 30px;
+        padding: 0.625em 1.875em;
     }
 
     .about_me .favorite_songs .container .content .my-playlist{
-        height: 200px;
-        margin-top: 20px;
+        height: 12.5em;
+        margin-top: 1.25em;
     }
 
     .about_me .favorite_songs .container .content .playlist-head h4{
-        font-size: 35px;
-        margin-bottom: 20px;
+        font-size: 2.1875em;
+        margin-bottom: 1.25em;
     }
 
     .about_me .favorite_songs .container .content .playlist{
-        padding: 5px 0;
-        font-size: 13px;
+        padding: 0.3125em 0;
+        font-size: 0.8125em;
     }
 
     .about_me .favorite_songs .container .content .playlist-list__title {
@@ -2274,27 +2306,27 @@ a{
     }
 
     .about_me .favorite_songs .container .content .playlist__number{
-        width: 20px;
-        min-width: 20px;
+        width: 1.25em;
+        min-width: 1.25em;
         display: none;
     }
 
     .about_me .favorite_songs .container .content .playlist__title{
-        width: 200px;
-        min-width:200px;
+        width: 12.5em;
+        min-width:12.5em;
         
     }
 
 
     .about_me .favorite_songs .container .content .playlist__artist{
-        width: 190px;
-        min-width: 190px;
+        width: 11.875em;
+        min-width: 11.875em;
         display: none;
         
     }
 
     .about_me .favorite_songs .container .content .playlist__time{
-        padding-right: 0px;
+        padding-right: 0em;
     }
 
 
@@ -2302,57 +2334,57 @@ a{
                 PLAY-SONGS
     ======================================*/
     .about_me .favorite_songs .container .content .play-song{
-        padding: 0px 0px 0px 0px;
-        margin-top: 0px;
+        padding: 0em 0em 0em 0em;
+        margin-top: 0em;
     
     }
 
     .about_me .favorite_songs .container .content .play-control{
-        font-size: 12px;
-        padding: 10px 0px 10px;
+        font-size: 0.75em;
+        padding: 0.625em 0em 0.625em;
     }
 
     .about_me .favorite_songs .container .content .play-control__act{
-        width: 180px;
+        width: 11.25em;
     }
 
     .about_me .favorite_songs .container .content .play-control__act i{
-        padding: 5px 5px 5px 5px;
-        font-size: 12px;
+        padding: 0.3125em 0.3125em 0.3125em 0.3125em;
+        font-size: 0.75em;
     }
 
     .about_me .favorite_songs .container .content .play-control__repeat{
-        width: 160px;
-        padding-right: 8px;
+        width: 10em;
+        padding-right: 0.5em;
     }
 
     .about_me .favorite_songs .container .content .play-control__repeat i{
-        font-size: 12px;
+        font-size: 0.75em;
     }
 
 
     .about_me .favorite_songs .container .content .play-control__main{
-        gap: 16px;
+        gap: 1em;
     }
 
     .about_me .favorite_songs .container .content .main-icon{
-        font-size: 15px;
+        font-size: 0.9375em;
     }
     
     .about_me .favorite_songs .container .content .main-icon--big{
-        font-size: 30px
+        font-size: 1.875em
     }
 
 
     .about_me .favorite_songs .container .content .play-seekbar{
-        gap:24px;
+        gap:1.5em;
         font-family: 'Quicksand', sans-serif;
-        font-size: 13px;
+        font-size: 0.8125em;
     }
 
     .about_me .favorite_songs .container .content .timer__left, .timer__right{
-        width: 25px;
-        max-width: 25px;
+        width: 1.5625em;
+        max-width: 1.5625em;
     }
 
     .about_me .favorite_songs .image_base{
@@ -2361,78 +2393,82 @@ a{
 
 
     /* My CV */
+    .myCv .banner_top .menu .menu_mobile_items .first_row{
+        margin-top: 2.2em;
+    }
+
     .myCv .content{
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .myCv .content .title{
-        font-size: 80px;
-        margin-top: 115px;
+        font-size: 5em;
+        margin-top: 7.1875em;
     }
 
     .myCv .content .button{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 1.25em;
     }
 
     .myCv .content .button button{
-        border: 2.5px solid #F17B78;
-        padding: 5px 10px;
-        margin: 5px;
-        font-size: 13px;
+        border: 2.0.3125em solid #F17B78;
+        padding: 0.3125em 0.625em;
+        margin: 0.3125em;
+        font-size: 0.8125em;
     }
 
     .myCv .content .cv{
-        margin-top: 10px;
+        margin-top: 0.625em;
     }
 
 
 
     /* My CV */
     .myCv .banner_top{
-        height: 0px;
+        height: 0em;
     }
 
     .myCv .content .title{
-        margin-top: 90px;
+        margin-top: 1.1em;
     }
 
     .myCv .content .button{
-        margin-top: 10px;
+        margin-top: 0.625em;
     }
 
     .myCv .content .button button{
-        padding: 5px 5px;
-        font-size: 15px;
+        padding: 0.3125em 0.3125em;
+        font-size: 0.9375em;
     }
 
     .myCv .content .cv{
-        margin-top: 10px;
+        margin-top: 0.625em;
     }
 
 
     /* Gallery details */
     .gallery_details .content{
-        padding: 0px 8.33333%;
+        padding: 0em 8.33333%;
     }
 
     .gallery_details .btn {
-        margin-top: 60px;
-        padding: 5px 10px;
+        margin-top: 3.75em;
+        padding: 0.3125em 0.625em;
         width: 22%;
     }
 
     .gallery_details .btn p{
-        font-size: 15px;
+        font-size: 0.9375em;
     }
 
     .gallery_details .title{
-        margin-top: 15px;
-        margin-bottom: 5px;
+        margin-top: 0.9375em;
+        margin-bottom: 0.3125em;
     }
 
     .gallery_details .title .name{
-        font-size: 20px;
+        font-size: 1.25em;
     }
 
     .gallery_details .title .software{
@@ -2440,43 +2476,43 @@ a{
     }
 
     .gallery_details .title .software .icon{
-        width: 25px;
-        height: 25px;
-        border-radius: 25px;
-        margin-left: 5px;
+        width: 1.5625em;
+        height: 1.5625em;
+        border-radius: 1.5625em;
+        margin-left: 0.3125em;
     }
 
     .gallery_details .title .software .icon p{
-        font-size: 12px;
+        font-size: 0.75em;
     }
 
     .gallery_details .images{
-        margin-top: 0px;
+        margin-top: 0em;
     }
 
     .gallery_details .images img{
-        margin-top: 5px;
+        margin-top: 0.3125em;
     }
 
 
     /* video */
     .gallery_details .player {
         width: 100%;
-        margin-top: 15px;
+        margin-top: 0.9375em;
         font-family: 'Quicksand', sans-serif;
-        font-size: 12px;
+        font-size: 0.75em;
     }
 
     .gallery_details .player__progress {
-        height: 6px;
+        height: 0.375em;
     }
 
     .gallery_details .player__button {
-        font-size: 8px;
+        font-size: 0.5em;
     }
 
     .gallery_details .toggle {
-        font-size: 25px;
+        font-size: 1.5625em;
     }
 
     .gallery_details .player__volume{

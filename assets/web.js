@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var item = document.querySelectorAll(".banner_top .menu .menu_items .item");
     console.log(item);
     window.addEventListener("scroll", function(){
-        if(window.pageYOffset > 70){
+        if(window.pageYOffset > 60){
             if(check == true){
                 console.log("Yoloo");
                 check = false;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 }
             }
         }
-        else if(window.pageYOffset <= 70){
+        else if(window.pageYOffset <= 60){
             if(check == false){
                 menu_scroll.classList.remove("menu_scrolled");
                 logo_top.classList.remove("logo_scrolled");
