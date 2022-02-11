@@ -1183,14 +1183,14 @@ a{
 }
 
 .gallery_details .player {
-	width: 75%;
+	width: 100%;
 	position: relative;
-    overflow: hidden;
+	overflow: hidden;
 	margin: auto;
-    margin-top: 1.25em;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    font-size: 1em;
+	margin-top: 1.25em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	font-size: 1em;
 }
 
 .gallery_details .player__controls {
