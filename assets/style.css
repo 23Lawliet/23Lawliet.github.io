@@ -607,7 +607,6 @@ a{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5625em;
     margin-top: 0.6em;
-    float: left;
 }
 
 .about_me .content .description .text1{
@@ -1555,8 +1554,8 @@ a{
     }
 
     .about_me .content .avt{
-        width: 110%;
-        margin-top: -6.25em;
+        width: 100%;
+        margin-top: -0.4em;
         margin-left: -1.25em;
     }
     
@@ -2188,10 +2187,14 @@ a{
         margin-bottom: 0.5em;
         float: none;
     }
+
+    .about_me .content .description .text2{
+        padding-right: 0em;
+    }
     
     .about_me .timeline{
         width: 100%;
-        height: 11.25em;
+        height: 12em;
     }
 
     .about_me .timeline .title{
@@ -2292,7 +2295,7 @@ a{
     }
 
     .about_me .favorite_songs .container{
-        height: 18em;
+        height: 20em;
         border-radius: 1.25em;
         margin-top: 3.125em;
     }
@@ -2303,7 +2306,7 @@ a{
 
     .about_me .favorite_songs .container .content .my-playlist{
         height: 12.5em;
-        margin-top: 1.25em;
+        margin-top: 1em;
     }
 
     .about_me .favorite_songs .container .content .playlist-head h4{
@@ -2313,7 +2316,7 @@ a{
 
     .about_me .favorite_songs .container .content .playlist{
         padding: 0.3125em 0;
-        font-size: 0.8125em;
+        font-size: 1em;
     }
 
     .about_me .favorite_songs .container .content .playlist-list__title {
@@ -2350,7 +2353,7 @@ a{
     ======================================*/
     .about_me .favorite_songs .container .content .play-song{
         padding: 0em 0em 0em 0em;
-        margin-top: -1em;
+        margin-top: 0.75em;
     }
 
     .about_me .favorite_songs .container .content .play-control{
@@ -2364,7 +2367,7 @@ a{
 
     .about_me .favorite_songs .container .content .play-control__act i{
         padding: 0.3125em 0.3125em 0.3125em 0.3125em;
-        font-size: 0.75em;
+        font-size: 1em;
     }
 
     .about_me .favorite_songs .container .content .play-control__repeat{
@@ -2373,7 +2376,7 @@ a{
     }
 
     .about_me .favorite_songs .container .content .play-control__repeat i{
-        font-size: 0.75em;
+        font-size: 1em;
     }
 
 
@@ -2382,11 +2385,11 @@ a{
     }
 
     .about_me .favorite_songs .container .content .main-icon{
-        font-size: 0.9375em;
+        font-size: 1.25em;
     }
     
     .about_me .favorite_songs .container .content .main-icon--big{
-        font-size: 1.875em
+        font-size: 2.5em;
     }
 
 
