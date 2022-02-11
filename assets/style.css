@@ -598,15 +598,15 @@ a{
 .about_me .content .title{
     font-family: BEBAS NEUE BOLD;
     font-size: 10em;
-    margin-top: 0.05em;
-    margin-bottom: 0.2em;
+    margin-top: 0em;
+    margin-bottom: 0.1em;
     float: left;
 }
 
 .about_me .content .description{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5625em;
-    margin-top: 0.5em;
+    margin-top: 0.6em;
     float: left;
 }
 
@@ -616,11 +616,12 @@ a{
 
 .about_me .content .description .text2{
     font-weight: 400;
+    padding-right: 7em;
 }
 
 .about_me .content .avt{
-    width: 100%;
-    margin-top: -11.25em;
+    width: 93%;
+    margin-top: -2.2em;
 }
 
 
