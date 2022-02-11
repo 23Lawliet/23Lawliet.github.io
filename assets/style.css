@@ -273,25 +273,25 @@ a{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.25em;
     margin-top: 0.8em;
-}
-
-.banner_top .introduce a{
-    color: #F17B78;
-    font-weight: 600;
-    line-height: 2.5em;
+    margin-bottom: 2.5em;
 }
 
 .banner_top .introduce .button{
-    /* FONT-VARIANT-EAST-ASIAN: JIS83; */
+}
+
+.banner_top .introduce .button button{
+    margin-top: 1em;
+    color: #F17B78;
+	border: 0.15em solid #F17B78;
+	padding: 0.5em 1.5em;
+	border-radius: 3.125em;
+	transition: 0.3s;
+	cursor: pointer;
+	background-color: transparent;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.25em;
-    margin-top: 4em;
-    text-transform: uppercase;
-    width: 9.5em;
-    height: 2.9em;
+    font-size: 1.5em;
+	font-weight: 500;
     text-align: center;
-    border: 0.2em solid #F17B78;
-    border-radius: 3.125em;
 }
 
 .banner_top .content .avt img{
@@ -711,7 +711,7 @@ a{
 }
 
 .about_me .strengths .container .content{
-    padding: 3.75em 3.75em 3.75em 3.75em;
+    padding: 3em 3.75em 3.75em 3.75em;
 }
 
 .about_me .strengths .container .content .title{
@@ -1076,6 +1076,7 @@ a{
 .myCv .content .cv .image img{
     width: 100%;
     cursor: pointer;
+    border: 0.1em solid #32200026;
 }
 
 .myCv .content .cv .active{
@@ -1371,11 +1372,14 @@ a{
     }
     
     .banner_top .introduce .button{
-        font-size: 0.8em;
-        margin-top: 2.5em;
-        width: 8.25em;
-        height: 1.875em;
-        border: 0.15em solid #F17B78;
+        
+    }
+
+    .banner_top .introduce .button button{
+        border: 2.0.3125em solid #F17B78;
+        padding: 0.5em 1.25em;
+        margin: 0.3125em;
+        font-size: 0.9375em;
     }
     
     .banner_top .content .avt img{
@@ -2008,12 +2012,13 @@ a{
     }
     
     .banner_top .introduce .button{
-        font-size: 0.9375em;
-        width: 7.5em;
-        height: 1.875em;
-        border: 0.1875em solid #F17B78;
-        margin: auto;
-        margin-top: 1.875em;
+        
+    }
+
+    .banner_top .introduce .button button{
+        padding: 0.5em 1.25em;
+        margin: 0.3125em;
+        font-size: 1em;
     }
     
     .who_am_i {
@@ -2056,12 +2061,12 @@ a{
     }
     
     .what_software .software .bg{
-        width: 2.5em;
-        height: 2.5em;
+        width: 2em;
+        height: 2em;
     }
     
     .what_software .software .bg img{
-        width: 2.5em;
+        width: 2em;
         transition: none;
     }
 
@@ -2112,8 +2117,8 @@ a{
     }
     
     .footer .social_media .icon{
-        width: 1.5625em;
-        height: 1.5625em;
+        width: 1.2em;
+        height: 1.2em;
         margin-left: 0.5em;
         margin-top: 0.1875em;
     }
